@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity55">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:background="#0D487F"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txvwname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="  Your name"
+            android:textSize="@dimen/_30sdp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="#2E2B2C">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/txvwdob"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:text="Date of birth "
+            android:textSize="@dimen/_20sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_270sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="#EBEBED"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txvwhight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="hight"
+            android:textSize="@dimen/_17sdp" />
+
+        <TextView
+            android:id="@+id/txvwweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="weight"
+            android:textSize="@dimen/_17sdp" />
+
+        <TextView
+            android:id="@+id/txvwhobbie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="hobbie"
+            android:textSize="@dimen/_17sdp" />
+
+        <TextView
+            android:id="@+id/txvwocupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="ocupation"
+            android:textSize="@dimen/_17sdp" />
+
+        <TextView
+            android:id="@+id/txvwaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="address"
+            android:textSize="@dimen/_17sdp" />
+
+        <TextView
+            android:id="@+id/txvwskill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="skill"
+            android:textSize="@dimen/_17sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txvwmobile"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="mobile"
+            android:textSize="@dimen/_17sdp" />
+    </LinearLayout>
+
+
+</LinearLayout>
